@@ -38,21 +38,31 @@ export default {
 <style scoped>
 /* Styles pour les boutons de la page d'accueil */
 .submit-button {
-  display: block; /* Passe en block pour prendre toute la largeur disponible */
-  width: 100%; /* Prend toute la largeur du conteneur */
-  max-width: 300px; /* Limite la largeur maximale (ajustez cette valeur selon vos préférences) */
-  margin: 10px auto; /* Centre les boutons horizontalement */
-  padding: 10px 20px;
+  display: block;
+  width: 90%; /* Ajuste la largeur à 90% du conteneur pour les petits écrans */
+  max-width: 300px; /* Limite la largeur maximale des boutons */
+  margin: 10px auto; /* Centre les boutons */
+  padding: 10px 15px;
   background-color: #EF3D4E;
   color: white;
   text-decoration: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 14px; /* Police un peu plus petite pour mobile */
   cursor: pointer;
   text-align: center;
+  word-wrap: break-word; /* Permet de couper les mots longs */
+  white-space: normal; /* Autorise les retours à la ligne pour le texte */
 }
 
 .submit-button:hover {
   background-color: #d93544;
+}
+
+/* Media Query pour petits écrans */
+@media (max-width: 600px) {
+  .submit-button {
+    font-size: 14px; /* Taille de police adaptée pour le mobile */
+    padding: 8px 12px; /* Moins d'espacement pour économiser de l'espace */
+  }
 }
 </style>
