@@ -27,7 +27,7 @@
         this.submittedName = this.name;
         if (this.name.includes("<script>")) {
           setTimeout(() => {
-            alert("Bein joué! Tu as trouvé une faille XSS! Voici le flag: {ClubCyber_4198}");
+            alert("Bienn joué! Tu as trouvé une faille XSS! \n\nFlag: {ClubCyber_4198}");
           }, 100);
         }
       }

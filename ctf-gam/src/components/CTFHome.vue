@@ -13,6 +13,9 @@
       <li>
         <router-link to="/sql-challenge" class="submit-button">Injection Fatale</router-link>
       </li>
+      <li>
+        <router-link to="/hash-challenge" class="submit-button">Dans l'Ombre du Hachage</router-link>
+      </li>
       <!-- Ajoutez d'autres liens vers des énigmes ici -->
     </ul>
   </div>

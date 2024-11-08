@@ -34,7 +34,7 @@
         // Expression régulière pour détecter une injection SQL typique
         const sqlInjectionPattern = /('|")?or\1?1\1?=\1?1/i;
         if (this.password.match(sqlInjectionPattern)) {
-          alert("Bien joué! Tu as injecté du code malveillant grâce à une injection SQL! Flag: {ClubCyber_5239}");
+          alert("Bien joué! Tu as injecté du code malveillant grâce à une injection SQL! \n\nFlag: {ClubCyber_5239}");
         } else {
           alert("Mot de passe incorrect, réessayez !");
         }

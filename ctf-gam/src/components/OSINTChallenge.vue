@@ -23,7 +23,7 @@
     methods: {
       handleSubmit() {
         if (this.password === "Bytesafe1975") {
-          alert("Bien joué! Grâce à l'OSINT, tu as trouvé le mot de passe de la DRH! Flag: {ClubCyber_1557}");
+          alert("Bien joué! Grâce à l'OSINT, tu as trouvé le mot de passe de la DRH! \n\nFlag: {ClubCyber_1557}");
         } else {
           alert("Mot de passe incorrect, réessayez !");
         }

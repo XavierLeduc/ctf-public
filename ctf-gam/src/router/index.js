@@ -4,6 +4,7 @@ import CTFHome from '../components/CTFHome.vue';
 import XSSChallenge from '../components/XSSChallenge.vue';
 import OSINTChallenge from '@/components/OSINTChallenge.vue';
 import SQLChallenge from '@/components/SQLChallenge.vue';
+import HashChallenge from '@/components/HashChallenge.vue';
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/sql-challenge',
     name: 'SQLChallenge',
     component: SQLChallenge,
+  },
+  {
+    path: '/hash-challenge',
+    name: 'HashChallenge',
+    component: HashChallenge,
   },
 ];
 
