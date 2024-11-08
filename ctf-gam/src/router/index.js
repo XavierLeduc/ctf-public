@@ -1,13 +1,13 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../components/Home.vue';
+import CTFHome from '../components/CTFHome.vue';
 import XSSChallenge from '../components/XSSChallenge.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'CTFHome',
+    component: CTFHome,
   },
   {
     path: '/xss-challenge',
