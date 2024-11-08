@@ -38,7 +38,7 @@ export default {
 }
 
 .logo {
-  height: 150px;
+  height: 75px;
   width: auto;
 }
 

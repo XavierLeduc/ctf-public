@@ -16,6 +16,14 @@
       <li>
         <router-link to="/hash-challenge" class="submit-button">Dans l'Ombre du Hachage</router-link>
       </li>
+      <li>
+        <router-link to="/clickjacking-challenge" class="submit-button">L'Appât du Clic</router-link>
+      </li>
+      <li>
+        <router-link to="/phi5hing-challenge" class="submit-button">Finir le CTF</router-link>
+      </li>
+
+
       <!-- Ajoutez d'autres liens vers des énigmes ici -->
     </ul>
   </div>

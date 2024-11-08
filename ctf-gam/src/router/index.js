@@ -5,6 +5,8 @@ import XSSChallenge from '../components/XSSChallenge.vue';
 import OSINTChallenge from '@/components/OSINTChallenge.vue';
 import SQLChallenge from '@/components/SQLChallenge.vue';
 import HashChallenge from '@/components/HashChallenge.vue';
+import ClickjackingChallenge from '@/components/ClickjackingChallenge.vue';
+import PhishingChallenge from '@/components/PhishingChallenge.vue';
 
 const routes = [
   {
@@ -31,6 +33,16 @@ const routes = [
     path: '/hash-challenge',
     name: 'HashChallenge',
     component: HashChallenge,
+  },
+  {
+    path: '/clickjacking-challenge',
+    name: 'ClickjackingChallenge',
+    component: ClickjackingChallenge,
+  },
+  {
+    path: '/phi5hing-challenge',
+    name: 'PhishingChallenge',
+    component: PhishingChallenge,
   },
 ];
 
