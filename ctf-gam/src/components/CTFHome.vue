@@ -38,8 +38,10 @@ export default {
 <style scoped>
 /* Styles pour les boutons de la page d'accueil */
 .submit-button {
-  display: inline-block;
-  margin: 10px;
+  display: block; /* Passe en block pour prendre toute la largeur disponible */
+  width: 100%; /* Prend toute la largeur du conteneur */
+  max-width: 300px; /* Limite la largeur maximale (ajustez cette valeur selon vos préférences) */
+  margin: 10px auto; /* Centre les boutons horizontalement */
   padding: 10px 20px;
   background-color: #EF3D4E;
   color: white;
