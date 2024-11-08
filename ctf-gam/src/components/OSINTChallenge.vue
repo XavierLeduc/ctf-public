@@ -1,13 +1,12 @@
-<!-- src/components/XSSChallenge.vue -->
+<!-- src/components/PasswordChallenge.vue -->
 <template>
     <div>
-      <h1>L'Écho du Script</h1>
+      <h1>Mission ImpOSINT: Rogue Nation</h1>
       <form @submit.prevent="handleSubmit">
-        <label for="name">Nom :</label>
-        <input type="text" id="name" v-model="name" class="input-field" />
+        <label for="password">Mot de passe :</label>
+        <input type="text" id="password" v-model="password" class="input-field" />
         <button type="submit" class="submit-button">Envoyer</button>
       </form>
-      <div v-html="submittedName" class="output" />
   
       <!-- Bouton de retour à l'accueil -->
       <router-link to="/" class="back-button">Retour à l'accueil</router-link>
@@ -18,17 +17,15 @@
   export default {
     data() {
       return {
-        name: '',
-        submittedName: ''
+        password: ''
       };
     },
     methods: {
       handleSubmit() {
-        this.submittedName = this.name;
-        if (this.name.includes("<script>")) {
-          setTimeout(() => {
-            alert("Bein joué! Tu as trouvé une faille XSS! Voici le flag: {ClubCyber_4198}");
-          }, 100);
+        if (this.password === "Bytesafe1975") {
+          alert("Bien joué! Grâce à l'OSINT, tu as trouvé le mot de passe de la DRH! Flag: {ClubCyber_1557}");
+        } else {
+          alert("Mot de passe incorrect, réessayez !");
         }
       }
     }
@@ -36,7 +33,7 @@
   </script>
   
   <style scoped>
-  /* Ajoutez des styles pour le bouton de retour */
+  /* Styles pour le bouton de retour, déjà appliqués dans l'énigme XSS */
   .back-button {
     display: inline-block;
     margin-top: 20px;
