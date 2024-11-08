@@ -2,6 +2,7 @@
 <template>
     <div>
       <h1>Mission ImpOSINT: Rogue Nation</h1>
+      <h2>Ordinateur de Claire</h2>
       <form @submit.prevent="handleSubmit">
         <label for="password">Mot de passe :</label>
         <input type="text" id="password" v-model="password" class="input-field" />
