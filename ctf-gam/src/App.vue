@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style>
-/* Styles globaux pour uniformiser l'apparence de l'application TEST SIGNATURE GITHUB V2*/
+/* Styles globaux pour uniformiser l'apparence de l'application*/
 
 * {
   font-family: 'Lato', sans-serif;
