@@ -23,7 +23,10 @@
         <router-link to="/phi5hing-challenge" class="submit-button">Finir le CTF</router-link>
       </li>
       <li>
-        <router-link to="/jwt-challenge" class="submit-button">Décodeur de Token JWT</router-link>
+        <router-link to="/jwt-challenge" class="submit-button">Jason WT</router-link>
+      </li>
+      <li>
+        <router-link to="/mitm-challenge" class="submit-button">MenInMiddle</router-link>
       </li>
 
 

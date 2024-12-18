@@ -8,6 +8,7 @@ import HashChallenge from '@/components/HashChallenge.vue';
 import ClickjackingChallenge from '@/components/ClickjackingChallenge.vue';
 import PhishingChallenge from '@/components/PhishingChallenge.vue';
 import JWTChallenge from '@/components/JWTChallenge.vue';
+import MITMChallenge from '@/components/MITMChallenge.vue';
 
 const routes = [
   {
@@ -50,6 +51,14 @@ const routes = [
     name: 'JWTChallenge',
     component: JWTChallenge,
   },
+  {
+    path: '/mitm-challenge',
+    name: 'MITMChallenge',
+    component: MITMChallenge,
+  }
+
+
+
 ];
 
 const router = createRouter({
