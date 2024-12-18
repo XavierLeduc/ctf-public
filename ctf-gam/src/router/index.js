@@ -7,6 +7,7 @@ import SQLChallenge from '@/components/SQLChallenge.vue';
 import HashChallenge from '@/components/HashChallenge.vue';
 import ClickjackingChallenge from '@/components/ClickjackingChallenge.vue';
 import PhishingChallenge from '@/components/PhishingChallenge.vue';
+import JWTChallenge from '@/components/JWTChallenge.vue';
 
 const routes = [
   {
@@ -43,6 +44,11 @@ const routes = [
     path: '/phi5hing-challenge',
     name: 'PhishingChallenge',
     component: PhishingChallenge,
+  },
+  {
+    path: '/jwt-challenge',
+    name: 'JWTChallenge',
+    component: JWTChallenge,
   },
 ];
 
